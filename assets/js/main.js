@@ -9,7 +9,7 @@ pokeApi.getPokemons().then((pokemonList = []) => {
 
 function generateHtml(pokemon) {
   return `
-    <li class="pokemon">
+    <li class="pokemon ${pokemon.mainType}">
       <span class="number">#${String(pokemon.number).padStart(3,'0')}</span>
       <span class="name">${pokemon.name}</span>
       <div class="detail">
