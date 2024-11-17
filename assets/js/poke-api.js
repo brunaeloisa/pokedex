@@ -5,7 +5,7 @@ export const pokeApi = {}
 function pokeApiToPokemon(pokemonDetail) {
   const pokemon = new Pokemon();
   pokemon.name = pokemonDetail.name;
-  pokemon.number = pokemonDetail.order;
+  pokemon.number = pokemonDetail.id;
   pokemon.types = pokemonDetail.types.map(typeSlot => typeSlot.type.name);
   pokemon.mainType = pokemon.types[0];
   pokemon.image = pokemonDetail.sprites.other['official-artwork'].front_default;

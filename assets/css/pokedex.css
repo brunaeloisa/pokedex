@@ -27,6 +27,7 @@
   text-align: right;
   font-size: .8rem;
   font-weight: 700;
+  letter-spacing: .03em;
 }
 
 .pokemon .name {
@@ -63,6 +64,23 @@
   border-radius: 3rem;
   display: inline-block;
   text-transform: capitalize;
+}
+
+.pagination {
+  margin-top: .6rem;
+  width: 100%;
+}
+
+.pagination #load-button {
+  padding: 0.5rem 1rem;
+  background-color: hsl(216, 10%, 80%);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.825rem;
+  display: block;
+  margin: auto;
 }
 
 
