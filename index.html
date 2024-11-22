@@ -13,29 +13,20 @@
     <!-- CSS styles -->
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
   </head>
   
   <body>
     <section class="content">
       <h1>Pokedex</h1>
-      <ol id=pokemon-list class="pokemon-list">
-        <!-- <li class="pokemon">
-          <span class="number">#001</span>
-          <span class="name">Bulbasaur</span>
-          <div class="detail">
-            <ol class="type-list">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-          </div>
-        </li> -->
-      </ol>
+      <ol id=pokemon-list class="pokemon-list"></ol>
       <div class="pagination">
         <button id="load-button">Load more...</button>
       </div>
     </section>
 
+    <section id="modal-overlay" class="modal-overlay"></section>
+    
     <script src="./assets/js/main.js" type="module"></script>
   </body>
 
